@@ -1,7 +1,7 @@
 {
-  "name": "friends-list",
+  "name": "redux-friends-list",
   "version": "1.0.0",
-  "description": "",
+  "description": "Just testing Redux based on tutorials and docs",
   "main": "index.js",
   "scripts": {
     "dev": "node dev-server.js",
