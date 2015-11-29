@@ -1,9 +1,9 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import addFriend from './action-creators/add-friend';
-import removeFriend from './action-creators/remove-friend';
-import FriendHeader from './components/friend-header';
-import FriendList from './components/friend-list';
+import addFriend from '../action-creators/add-friend';
+import removeFriend from '../action-creators/remove-friend';
+import FriendHeader from '../components/friend-header';
+import FriendList from '../components/friend-list';
 
 class Friends extends Component {
     render() {

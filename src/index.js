@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import friendsReducer from './reducers/friends';
-import Friends from './friends';
+import Friends from './containers/friends';
 
 // If more than one reducer we need to combineReducers in order to make it work
 let store = createStore(friendsReducer);
