@@ -2,7 +2,7 @@ export default (
     state = [],
     action
 ) => {
-    // Remember it needs to be immutable objects Object.assign
+    // Remember it needs to be immutable objects
     switch (action.type) {
         case 'REMOVE_FRIEND':
             state = state.filter(friend => friend.id !== action.id);
