@@ -19,10 +19,4 @@ class FriendItem extends Component {
     }
 }
 
-FriendItem.propTypes = {
-    id: PropTypes.int.isRequired,
-    name: PropTypes.string.isRequired,
-    onRemoveClick: PropTypes.func.isRequired
-};
-
 export default FriendItem;
