@@ -6,7 +6,7 @@ class FriendHeader extends Component {
 
         return (
             <div>
-                <h1>Hello, friends</h1>
+                <h1>Hello, friends.</h1>
                 <input type="text" ref="input" />
                 <button onClick={(e) => {
                     e.preventDefault();
