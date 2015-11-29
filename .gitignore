@@ -1,4 +1,4 @@
 /node_modules/
 /static/bundle.js
-/static/*.hot-update.json
+/static/*.hot-update.js
 npm-debug.log
